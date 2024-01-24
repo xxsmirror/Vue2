@@ -1,28 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Avatar url="https://i8.meishichina.com/attachment/recipe/2012/10/23/20121023114134207352734.jpg@!p800" :height="500" :weight="200"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Avatar from './components/Avatar.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    Avatar
   }
 }
 </script>
 
-<style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+
