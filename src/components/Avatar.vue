@@ -15,7 +15,8 @@ export default {
             require:true
         },
         height:{
-            type:Number
+            type:Number,
+            default:150
         },
         weight:{
             type:Number
